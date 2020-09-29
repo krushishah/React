@@ -1,0 +1,46 @@
+.form-Input{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    background: rgb(218, 216, 216);
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+::placeholder {
+    color:black;
+    opacity: 1; 
+}
+.Input, select, textarea{
+    color:black;
+}
+.Input:focus {
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    background: rgb(218, 216, 216);
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid rgb(155, 212, 245);
+}
+.Input-error{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    background: rgb(218, 216, 216);
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.Input-error:focus{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    background: rgb(218, 216, 216);
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}

@@ -1,0 +1,91 @@
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+    opacity: 0.5;
+  }
+  .tablink-active{
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+    opacity: 1;
+  }
+.Header{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+@media only screen and (max-width: 1200px) {
+  /* For tablets: */
+ .tablink {
+    width:100%;
+  }
+  .tabform{
+    width: 100%;
+  }
+  .tablink-active{
+    width: 100%;
+  } 
+  Nav{
+    width: 100%;
+  }
+  .form-Input{
+      width:30%;
+  }
+  .form-button{
+    width:15%;
+  }
+}
+@media only screen and (max-width: 500px) {
+    /*For mobile*/
+    .tablink {
+      width:50%;
+    }
+    .tabform{
+      width: 100%;
+    }
+    .tablink-active{
+      width: 50%;
+    } 
+    Nav{
+      width: 100%;
+    }
+    .form-Input{
+        width:30%;
+    }
+    .form-button{
+      width:20%;
+    }
+}
+@media only screen and (min-width:1200px){
+  .tablink {
+    width:50%;
+  }
+  .tabform{
+    width: 100%;
+  }
+  .tablink-active{
+    width: 50%;
+  } 
+  Nav{
+    width: 100%;
+  }
+  .form-Input{
+      width:30%;
+  }
+  .form-button{
+    width:15%;
+  }
+}

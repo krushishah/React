@@ -1,0 +1,44 @@
+Mon 28 Sep 2020 15:41:01 IST
+PASS src/Test/login.test.js (15.777s)
+FAIL src/Test/utility.test.js (27.134s)
+  ● validity test for the form inputs
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      21 |     let expectedValue = [false,false,false,true,false,true,false,true,false,true];
+      22 |     for(let i = 0 ; i < value.length ;i++){
+    > 23 |         expect(checkValidity(value[i],validationProperties[i])).toBe(expectedValue[i]);
+         |                                                                 ^
+      24 |     }
+      25 | });
+
+      at Object.<anonymous>.test (src/Test/utility.test.js:23:65)
+
+PASS src/Test/Form.test.js (44.273s)
+FAIL src/Test/App.test.js (44.325s)
+  ● <App/> › no of routes to be 2
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 2
+    Received length: 4
+    Received array:  [<Route component={{"$$typeof": Symbol(react.memo), "WrappedComponent": [Function Login], "compare": null, "displayName": "Connect(Login)", "type": [Function ConnectFunction]}} exact={true} path="/" />, <Route component={{"$$typeof": Symbol(react.memo), "WrappedComponent": [Function Home], "compare": null, "displayName": "Connect(Home)", "type": [Function ConnectFunction]}} exact={true} path="/Container/Home" />, <Route component={[Function FormsTab]} exact={true} path="/Container/FormsTab" />, <Redirect to="/" />]
+
+      28 |         //for this case to be true , change value of isLoggedin =  false  in LoginReducer.js;
+      29 |         let routeCheck = route.props.children;
+    > 30 |         expect(routeCheck).toHaveLength(2);
+         |                            ^
+      31 |     });
+      32 | 
+      33 |     it('no of routes to be 4',() => {
+
+      at Object.it (src/Test/App.test.js:30:28)
+
+Test Suites: 2 failed, 2 passed, 4 total
+Tests:       2 failed, 3 passed, 5 total
+Snapshots:   0 total
+Time:        55.486s
+Ran all test suites.

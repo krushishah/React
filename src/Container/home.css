@@ -1,0 +1,45 @@
+.home{
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    justify-content:center;
+    position:absolute;
+    top:0; bottom: 0; left: 0; right: 0;
+    width: 40vw; height:50vh;
+}
+.header{
+    color:black;
+}
+.header:hover{
+    opacity: 0.5;
+}
+.details{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    /* For tablets: */
+    .home{
+        width: 100%;
+    }
+    Nav{
+        width:100%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      /*For mobile*/
+    .home{
+        width: 100%;
+    }
+    Nav{
+        width: 100%;
+    }
+  }
+  @media only screen and (min-width:1000px) {
+    .home{
+        width: 100%;
+    }
+    Nav{
+        width: 100%;
+    }
+}

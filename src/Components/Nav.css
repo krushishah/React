@@ -1,0 +1,38 @@
+
+.nav-links-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar{
+    float:left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.navbar-active{
+    text-decoration: underline;
+    background-color: #111;
+}
+.navbar:hover{
+    background-color: #111;
+    opacity: 0.2;
+    text-decoration: underline;
+}
+.navbar-logout:hover{
+    background-color: #111;
+    opacity: 0.2;
+    text-decoration: underline;
+}
+.navbar-logout{
+    float:right;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}

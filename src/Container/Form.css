@@ -1,0 +1,103 @@
+.form{
+    justify-content:center;
+    position:absolute;
+    top:0; bottom: 0; left: 0; right: 0;
+    width: 40vw; height: 30vh;
+    background-color: rgb(255, 255, 255);
+    border:none;
+}
+.form-Input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:none;
+    background: rgb(218, 216, 216);
+}
+::placeholder {
+    color:black;
+    opacity: 1; 
+}
+.form-Input, select, textarea{
+    color:black;
+}
+.HeaderForm{
+    padding-top: 40px;
+    font-size: 50px;
+}
+.form-Input:focus {
+    outline: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-color:white;
+    background: rgb(218, 216, 216);
+    border: 2px solid rgb(147, 212, 255);
+}
+.form-Input-error{
+    outline: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-color:white;
+    background: rgb(218, 216, 216);
+    border: 2px solid red;
+}
+.form-Input-error:focus{
+    outline: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-color:white;
+    background: rgb(218, 216, 216);
+    border: 2px solid red;
+}
+.form-button{
+    border-radius: 5px;
+    font: bold;
+    font-size: 15px;
+    padding: 5px 18px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(30, 161, 212);
+}
+.form-button:disabled{
+    border-radius: 5px;
+    font: bold;
+    font-size: 15px;
+    padding: 5px 18px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(88, 114, 124);
+}
+@media only screen and (max-width: 1200px) {
+    /* For tablets: */
+   .form {
+      width:100%;
+      height: 60%;
+    }
+    .form-Input{
+        width:30%;
+    }
+    .form-button{
+      width:15%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      /*For mobile*/
+     .form {
+        width:80%;
+        height: 50%;
+      }
+      .form-Input{
+          width:68%;
+      }
+      .form-button{
+        width:60%;
+    }
+  }
+  @media only screen and (min-width:1200px){
+   .form {
+      width:100%;
+      height: 60%;
+    }
+    .form-Input{
+        width:11%;
+    }
+    .form-button{
+      width:15%;
+    }
+}

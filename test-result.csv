@@ -1,0 +1,6 @@
+DATE,TEST NAME,TEST RESULT
+Mon 28 Sep 2020 15:41:01 IST,,
+,login.test.js,PASS
+,utility.test.js,FAIL
+,Form.test.js,PASS
+,App.test.js,FAIL
