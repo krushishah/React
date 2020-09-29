@@ -18,7 +18,7 @@ test('validity test for the form inputs', () => {
                                         displayValue: 'none',
                                         displayData: 'Aleast 8 characters including \n Uppercase \n lowercase \n Number \n Special Characters'
                                     }}];
-    let expectedValue = [false,false,false,true,false,true,false,true,false,true];
+    let expectedValue = [false,true,false,true,false,true,false,true,false,true];
     for(let i = 0 ; i < value.length ;i++){
         expect(checkValidity(value[i],validationProperties[i])).toBe(expectedValue[i]);
     }
