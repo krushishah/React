@@ -35,7 +35,7 @@ export const loginCredentials = {
         },
     },
     isSelected:"",
-    isLoggedin: true,
+    isLoggedin: false,
 }
 const loginDetails = (state = loginCredentials, action) => {
     function loginStateUpdate(state, action) {
