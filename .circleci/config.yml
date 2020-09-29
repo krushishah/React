@@ -4,5 +4,6 @@ orbs:
 workflows:
   node-tests:
     jobs:
-      - node/test
-      - node/build
+      - npm test
+      - npm build
+      
