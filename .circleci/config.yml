@@ -18,5 +18,6 @@ orbs:
 workflows:
   node-tests:
     jobs:
+      - npm install
       - build
       - node/test
