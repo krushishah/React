@@ -4,5 +4,9 @@ orbs:
 workflows:
   node-tests:
     jobs:
+<<<<<<< HEAD
       - npm install
       - node/test
+=======
+      - node/test
+>>>>>>> fe3d2b3005ac82ec1d3ea525a183579cd6a3516d
