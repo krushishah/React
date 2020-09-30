@@ -7,4 +7,4 @@ workflows:
       - node/test
   node-build:
     jobs:
-      - node/build 
+      - npm run build 
