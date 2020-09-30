@@ -8,7 +8,16 @@ jobs:
       - node/install-packages
       - run:
           command: npm run build
-
+jobs:
+  install:
+    executor:
+      name: node/default
+      tag: '13.14'
+    steps:
+      - checkout
+      - node/install-packages
+      - run:
+          command: npm install
 
 
 version: 2.1
